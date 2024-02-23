@@ -1,5 +1,5 @@
-CRICTL=1.26.0
-ARCH=arm
+CRICTL=1.29.0
+ARCH=amd
 OS=linux
 
 wget https://github.com/kubernetes-sigs/cri-tools/releases/download/v${CRICTL}/crictl-v${CRICTL}-${OS}-${ARCH}64.tar.gz
